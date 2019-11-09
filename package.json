@@ -30,11 +30,12 @@
     "@google-cloud/firestore": "FIXME - Can be removed once next version after 0.11.2 is released which exposes all the Firestore types so instanceof can be used"
   },
   "dependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-flow": "^7.0.0",
+    "@babel/runtime-corejs2": "^7.0.0",
     "@google-cloud/firestore": "googleapis/nodejs-firestore",
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.6.1",
-    "babel-preset-flow": "^6.23.0",
-    "babel-runtime": "^6.26.0",
     "colors": "^1.1.2",
     "commander": "^2.11.0",
     "firebase-admin": "^5.4.3",
@@ -42,13 +43,18 @@
     "mkdirp": "^0.5.1"
   },
   "devDependencies": {
-    "babel-eslint": "7",
-    "babel-plugin-transform-object-rest-spread": "^6.26.0",
-    "babel-plugin-transform-runtime": "^6.23.0",
+    "@babel/core": "^7.0.0",
+    "@babel/node": "^7.0.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.0.0",
+    "@babel/preset-flow": "^7.0.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-eslint": "^9.0.0",
+    "babel-jest": "^25.0.0",
     "eslint": "3.x",
     "eslint-plugin-flowtype": "^2.39.1",
     "flow-bin": "^0.64.0",
-    "jest": "^22.1.4",
+    "jest": "^25.0.0",
     "standard": "^10.0.3"
   },
   "jest": {
