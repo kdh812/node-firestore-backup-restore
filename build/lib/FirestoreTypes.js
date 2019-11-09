@@ -1,9 +1,13 @@
-'use strict';
+"use strict";
 
-Object.defineProperty(exports, "__esModule", {
+var _Object$defineProperty = require("@babel/runtime-corejs2/core-js/object/define-property");
+
+_Object$defineProperty(exports, "__esModule", {
   value: true
 });
-var TYPES = exports.TYPES = {
+
+exports.TYPES = void 0;
+var TYPES = {
   STRING: 'string',
   NUMBER: 'number',
   BOOLEAN: 'boolean',
@@ -14,3 +18,4 @@ var TYPES = exports.TYPES = {
   GEOPOINT: 'geopoint',
   DOCUMENT_REFERENCE: 'documentReference'
 };
+exports.TYPES = TYPES;

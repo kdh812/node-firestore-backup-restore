@@ -1,14 +1,10 @@
 {
-  "presets": [
-    "@babel/preset-flow",
-    "@babel/preset-env"
-  ],
+  "presets": ["@babel/preset-flow", "@babel/preset-env"],
   "plugins": [
     [
       "@babel/plugin-transform-runtime",
       {
         "corejs": 2,
-        "polyfill": false,
         "regenerator": true
       }
     ],
